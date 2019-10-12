@@ -7,11 +7,17 @@ by Danh Doan
 This is a series about developing common Computer Vision projects on Raspberry Pi board. Some of them requires the support of Movidius Neural Compute Stick to boost the performance. 
 OpenVINO toolkit is mainly the development tool that helps optimize the hardware and models to work well with Raspi
 
+The main purpose of this work is to help developers from all levels to gain insights and resources to working with Raspberry Pi for Computer Vision projects.
+Every sample project is refactored and organized so that it is easily understandable and approachable.
+
+If you have any project ideas and issues with those projects, feel free to comment.
+It will help improve and enrich the contents. Thanks in advance with my sincere.
+
 
 ## Sample Projects
-* Test with Pi camera module: [[link]]()
+* Test with Pi camera module: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/000-show-pi-camera)
 	* Play around with builtin Pi camera module
-* Face Detection with High Accuracy: [[link]]()
+* Face Detection with High Accuracy: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/001-pi-face-detection)
 	* Develop an accurate and robust Face detector with pretrained SSD model trained from WIDER dataset
 * Facial Keypoint Detection: [[link]]() [[demo]](https://www.youtube.com/watch?v=En_nsyF8kJM) [[demo]](https://www.youtube.com/watch?v=WzvgrhrDC1s)
 	* Develop a simple Facial keypoints localization that detect 5 main keypoints of human faces (center eyes, nose tip, and mouth corner
@@ -21,7 +27,7 @@ OpenVINO toolkit is mainly the development tool that helps optimize the hardware
 * Headpose Estimation: [[link]]()
 	* Estimate Human head pose in Tait-Bryan angles (yaw, pitсh or roll)
 	**Notice:** It is still in development stage
-* Human Detection: [[link]]() [[demo]](https://www.youtube.com/watch?v=Suprnm2EiEE)
+* Human Detection: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/005-pi-object-detection) [[demo]](https://www.youtube.com/watch?v=Suprnm2EiEE)
 	* Develop an Object detector especially with SSD model
 	**Notice:** human is just an example of objects, any object detection model can be converted to work with this sample project
 
@@ -32,15 +38,22 @@ Follow `install.md` instructions [[link]]() to install essential packages and mo
 
 ## Usage
 1. Clone this repository:
+
 	`cd ~`
+
 	`mkdir workspace && cd workspace`
+
 	`git clone https://github.com/danhdoan/computer-vision-raspberrypi`
 
 2. Download OpenVINO pretrained-model
+
 	`mkdir openvino-models`
+
 	You can notice a soft symbol link in any projects that maps to this directory. If you want to store it elsewhere, beware of re-map this symbol link.
 	To download a model, just go to the official OpenVINO site from Intel:
+
 	https://download.01.org/opencv/2019/open_model_zoo/R1/
+
 	In this project, models from R1 sub-dir are used. R3 is currently the latest, it also works well with sample code.
 	Just download the FP16 models, they can be applied to Raspberry Pi. In my code, I usually add a postfix `-fp16` to clarify this issue. Thus, download a pretrained model and change its name correspondingly.
 	
