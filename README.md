@@ -13,6 +13,7 @@ Every sample project is refactored and organized so that it is easily understand
 If you have any project ideas and issues with those projects, feel free to comment.
 It will help improve and enrich the contents. Thanks in advance with my sincere.
 
+**Other Computer Vision demos:** [[link]](https://www.youtube.com/watch?v=Suprnm2EiEE&list=PL9gpyuNNKEhJSAg8RxTrNj046GQJ1K9Q1)
 
 ## Sample Projects
 * Test with Pi camera module: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/000-show-pi-camera)
@@ -26,9 +27,11 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
 	**Notice:** It is still in development stage
 * Headpose Estimation: [[link]]()
 	* Estimate Human head pose in Tait-Bryan angles (yaw, pitсh or roll)
+
 	**Notice:** It is still in development stage
 * Human Detection: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/005-pi-object-detection) [[demo]](https://www.youtube.com/watch?v=Suprnm2EiEE)
 	* Develop an Object detector especially with SSD model
+
 	**Notice:** human is just an example of objects, any object detection model can be converted to work with this sample project
 
 
