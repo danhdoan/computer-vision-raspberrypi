@@ -1,0 +1,30 @@
+# AI model
+*.ai
+*.dat
+*.h5
+*.hdf5
+*.pkl
+*.pth
+*.params
+
+
+# vscode folder
+.vscode/
+
+# pycache file
+__pycache__/
+
+# data folder
+data/
+
+# .ipynb checkpoints
+.ipynb_checkpoints/
+
+# vim swap file
+*.sw[onp]
+
+# media files
+*.avi
+*.mp4
+*.jpg
+*.png

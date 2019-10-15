@@ -15,16 +15,24 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
 
 **Other Computer Vision demos:** [[link]](https://www.youtube.com/watch?v=Suprnm2EiEE&list=PL9gpyuNNKEhJSAg8RxTrNj046GQJ1K9Q1)
 
+## Updates
+**2019, Oct 15:**
+  * Add 003-pi-face-alignment
+
+**2019, Oct 12:**
+  * Add 002-pi-facial-landmark-detection
+  * Add 001-pi-face-detection
+  * Add 000-show-pi-camera
+
 ## Sample Projects
 * Test with Pi camera module: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/000-show-pi-camera)
 	* Play around with builtin Pi camera module
 * Face Detection with High Accuracy: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/001-pi-face-detection)
 	* Develop an accurate and robust Face detector with pretrained SSD model trained from WIDER dataset
-* Facial Keypoint Detection: [[link]]() [[demo]](https://www.youtube.com/watch?v=En_nsyF8kJM) [[demo]](https://www.youtube.com/watch?v=WzvgrhrDC1s)
+* Facial Keypoint Detection: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/002-pi-facial-landmark-detection) [[demo]](https://www.youtube.com/watch?v=En_nsyF8kJM) [[demo]](https://www.youtube.com/watch?v=WzvgrhrDC1s)
 	* Develop a simple Facial keypoints localization that detect 5 main keypoints of human faces (center eyes, nose tip, and mouth corner
-* Face Alignment: [[link]]()
+* Face Alignment: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/003-pi-face-alignment)
 	* Based on 5 keypoints, align human faces, to support other problem e.g. Face Identification, Face Verification, ... 
-	**Notice:** It is still in development stage
 * Headpose Estimation: [[link]]()
 	* Estimate Human head pose in Tait-Bryan angles (yaw, pitсh or roll)
 
