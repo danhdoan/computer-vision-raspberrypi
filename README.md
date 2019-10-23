@@ -36,7 +36,7 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
 	* Develop a simple Facial keypoints localization that detect 5 main keypoints of human faces (center eyes, nose tip, and mouth corner
 * Face Alignment: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/003-pi-face-alignment)
 	* Based on 5 keypoints, align human faces, to support other problem e.g. Face Identification, Face Verification, ... 
-* Headpose Estimation: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/003-pi-head-pose-estimation) [[demo]](https://www.youtube.com/watch?v=kN-QrA3h4oo)
+* Headpose Estimation: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/004-pi-head-pose-estimation) [[demo]](https://www.youtube.com/watch?v=kN-QrA3h4oo)
 	* Estimate Human head pose in Tait-Bryan angles (yaw, pitсh or roll)
 
 * Human Detection: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/005-pi-object-detection) [[demo]](https://www.youtube.com/watch?v=Suprnm2EiEE)
