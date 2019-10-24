@@ -16,8 +16,11 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
 **Other Computer Vision demos:** [[link]](https://www.youtube.com/watch?v=Suprnm2EiEE&list=PL9gpyuNNKEhJSAg8RxTrNj046GQJ1K9Q1)
 
 ## Updates
+**2019, Oct 23:**
+  * Add 004-pi-head-pose-estimation
+
 **2019, Oct 16:**
-  * Add 006-pi-face-identification
+  * Add 006-pi-face-verification
 
 **2019, Oct 15:**
   * Add 003-pi-face-alignment
@@ -44,7 +47,8 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
 
 	**Notice:** human is just an example of objects, any object detection model can be converted to work with this sample project
 
-* Face Identification: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/006-pi-face-identification)
+* Face Verification: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/006-pi-face-identification)
+
   Verify Face Identity by Face embeddings
 
 

@@ -27,8 +27,6 @@ by Danh Doan
 
 	`sudo apt install git cmake vim-gtk gedit`
 
-  You can eliminate `vim-gtk` and `gedit`, I usually use them, they are not required.
-
 ## Setup OpenVINO toolkit
 Follow the installation guide in this blog [[link]](https://blog.hackster.io/getting-started-with-the-intel-neural-compute-stick-2-and-the-raspberry-pi-6904ccfe963)
 
