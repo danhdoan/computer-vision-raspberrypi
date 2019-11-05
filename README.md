@@ -16,6 +16,10 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
 **Other Computer Vision demos:** [[link]](https://www.youtube.com/watch?v=Suprnm2EiEE&list=PL9gpyuNNKEhJSAg8RxTrNj046GQJ1K9Q1)
 
 ## Updates
+**2019, Nov 05:**
+  * Add 008-pi-emotion-recognition
+  * Update installation guide to support IECore
+
 **2019, Oct 23:**
   * Add 004-pi-head-pose-estimation
 
@@ -26,6 +30,7 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
   * Add 003-pi-face-alignment
 
 **2019, Oct 12:**
+  * Add 005-pi-object-detection
   * Add 002-pi-facial-landmark-detection
   * Add 001-pi-face-detection
   * Add 000-show-pi-camera
@@ -50,6 +55,12 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
 * Face Verification: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/006-pi-face-identification)
 
   Verify Face Identity by Face embeddings
+
+* Emotion Recognition: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/008-pi-emotion-recognition) [[demo]](https://www.youtube.com/watch?v=RXCuG3I1Mkw)
+
+  Recognize Emotional states of Human faces
+
+* Car and License Plate Detection: [ongoing]
 
 
 ## Installation
@@ -98,7 +109,7 @@ Follow `install.md` instructions [[link]]() to install essential packages and mo
 		python3 app-object-detector.py -h
 
 ## References
-* OpenVINO model zoo: https://download.01.org/opencv/2019/open_model_zoo/R1/
+* OpenVINO model zoo: https://download.01.org/opencv/2019/open_model_zoo/R3/
 * Official Intel site:
 	* [https://docs.openvinotoolkit.org/latest/_demos_README.html](https://docs.openvinotoolkit.org/latest/_demos_README.html)
 	* https://docs.openvinotoolkit.org/latest/_models_intel_index.html

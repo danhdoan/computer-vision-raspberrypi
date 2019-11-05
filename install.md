@@ -38,29 +38,26 @@ Follow the installation guide in this blog [[link]](https://blog.hackster.io/get
 
 	`cd openvino`
 
-	`wget https://download.01.org/opencv/2019/openvinotoolkit/R1/l_openvino_toolkit_raspbi_p_2019.1.144.tgz`
+	`wget https://download.01.org/opencv/2019/openvinotoolkit/R3/l_openvino_toolkit_runtime_raspbian_p_2019.3.334.tgz`
 
-	`tar -xvf l_openvino_toolkit_raspbi_p_2019.1.144.tgz`
+	`tar -xvf l_openvino_toolkit_runtime_raspbian_p_2019.3.334.tgz`
 
 2. Modify Installation Dir in setup script
 
-	`sed -i "s|<INSTALLDIR>|$(pwd)/inference_engine_vpu_arm|" inference_engine_vpu_arm/bin/setupvars.sh`
+	`sed -i "s|<INSTALLDIR>|$(pwd)/|" /bin/setupvars.sh`
 
 3. Add to .bashrc
 
-	`source /home/pi/openvino/inference_engine_vpu_arm/bin/setupvars.sh`
+	`source /home/pi/openvino/bin/setupvars.sh`
 
 	`source ~/.bashrc`
 
-4. Expand Python interpreter path
 
-	`export PYTHONPATH="${PYTHONPATH}:/home/pi/openvino/inference_engine_vpu_arm/python/python3.5/armv7l"`
-
-5. Update USB rule for Pi to recognize NCS
+4. Update USB rule for Pi to recognize NCS
 
 	`sudo usermod -a -G users "$(whoami)"`
 
-	`sh ~/openvino/inference_engine_vpu_arm/install_dependencies/install_NCS_udev_rules.sh`
+	`sh ~/openvino/install_dependencies/install_NCS_udev_rules.sh`
 
 
 ## Install support packages for Computer Vision
