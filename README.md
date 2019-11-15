@@ -16,6 +16,9 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
 **Other Computer Vision demos:** [[link]](https://www.youtube.com/watch?v=Suprnm2EiEE&list=PL9gpyuNNKEhJSAg8RxTrNj046GQJ1K9Q1)
 
 ## Updates
+**2019, Nov 15:**
+  * Add `openvino-models`: [[link]](https://drive.google.com/drive/folders/11G98FS2-klB4qGiz4YzEZfdnd0G2XNrL)
+
 **2019, Nov 05:**
   * Add 008-pi-emotion-recognition
   * Update installation guide to support IECore
