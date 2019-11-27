@@ -75,7 +75,7 @@ def app(video_link, video_name, show=False, record=False):
     LOG.info('Camera Info: ({}, {}) - {:.3f}'.format(W, H, FPS))
 
     if record:
-        writer = imgproc.getVideoRecorder(video_name, (1280, 720), 30)
+        writer = imgproc.getVideoRecorder(video_name, (W, H), FPS)
 
     frm_cnt = 0
     while cap.isOpened():
@@ -85,9 +85,7 @@ def app(video_link, video_name, show=False, record=False):
             break
 
         frm_cnt += 1
-        if frm_cnt % 2: continue
-
-        frm = imgproc.resizeByHeight(frm, 720)
+        if frm_cnt % FRM_MOD: continue
 
         _start_t = time.time()
         inp_image = cv.cvtColor(frm, cv.COLOR_BGR2RGB)

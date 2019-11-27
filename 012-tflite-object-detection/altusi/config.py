@@ -12,7 +12,7 @@ PROJECT_BASE = '.'
 FONT = os.path.join(PROJECT_BASE, 'altusi', 'Aller_Bd.ttf')
 
 TIME_FM = '-%Y%m%d-%H%M%S'
-pFPS = 20 
+pFPS = 10
 
 #===============================================================================
 # PROJECT'S MODELS
