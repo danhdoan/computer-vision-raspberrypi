@@ -16,6 +16,9 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
 **Other Computer Vision demos:** [[link]](https://www.youtube.com/watch?v=Suprnm2EiEE&list=PL9gpyuNNKEhJSAg8RxTrNj046GQJ1K9Q1)
 
 ## Updates
+**2019, Nov 27:**
+  * Add 012-tflite-object-detection
+
 **2019, Nov 15:**
   * Add `openvino-models`: [[link]](https://drive.google.com/drive/folders/11G98FS2-klB4qGiz4YzEZfdnd0G2XNrL)
 
@@ -65,6 +68,9 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
 
 * Car and License Plate Detection: [ongoing]
 
+* TFLite Object Detection: [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/tree/master/012-tflite-object-detection) [[demo]](https://www.youtube.com/watch?v=ncDyjjNTd5w)
+
+
 
 ## Installation
 
@@ -81,7 +87,7 @@ Follow `install.md` instructions [[link]]() to install essential packages and mo
 
 2. Download OpenVINO pretrained-model
 
-	`mkdir openvino-models`
+	`mkdir openvino-models tflite-models`
 
 	You can notice a soft symbol link in any projects that maps to this directory. If you want to store it elsewhere, beware of re-map this symbol link.
 	To download a model, just go to the official OpenVINO site from Intel:
