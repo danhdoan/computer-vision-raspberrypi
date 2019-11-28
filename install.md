@@ -41,7 +41,7 @@ Follow the installation guide in this blog [[link]](https://blog.hackster.io/get
 	`wget https://download.01.org/opencv/2019/openvinotoolkit/R3/l_openvino_toolkit_runtime_raspbian_p_2019.3.334.tgz`
 
 	`tar -xvf l_openvino_toolkit_runtime_raspbian_p_2019.3.334.tgz`
-
+  
   `mv l_openvino_toolkit_runtime_raspbian_p_2019.3.334/* .`
 
 2. Modify Installation Dir in setup script
