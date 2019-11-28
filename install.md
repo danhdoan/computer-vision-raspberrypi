@@ -42,9 +42,11 @@ Follow the installation guide in this blog [[link]](https://blog.hackster.io/get
 
 	`tar -xvf l_openvino_toolkit_runtime_raspbian_p_2019.3.334.tgz`
 
+  `mv l_openvino_toolkit_runtime_raspbian_p_2019.3.334/* .`
+
 2. Modify Installation Dir in setup script
 
-	`sed -i "s|<INSTALLDIR>|$(pwd)/|" /bin/setupvars.sh`
+	`sed -i "s|<INSTALLDIR>|$(pwd)/|" bin/setupvars.sh`
 
 3. Add to .bashrc
 
