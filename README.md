@@ -74,7 +74,7 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
 
 ## Installation
 
-Follow `install.md` instructions [[link]]() to install essential packages and modules for working with Raspberry Pi. Installing OpenVINO as a toolkit to the development.
+Follow `install.md` instructions [[link]](https://github.com/danhdoan/computer-vision-raspberrypi/blob/master/install.md) to install essential packages and modules for working with Raspberry Pi. Installing OpenVINO as a toolkit to the development.
 
 ## Usage
 1. Clone this repository:
