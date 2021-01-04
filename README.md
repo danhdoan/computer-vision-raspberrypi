@@ -16,6 +16,9 @@ It will help improve and enrich the contents. Thanks in advance with my sincere.
 **Other Computer Vision demos:** [[link]](https://www.youtube.com/watch?v=Suprnm2EiEE&list=PL9gpyuNNKEhJSAg8RxTrNj046GQJ1K9Q1)
 
 ## Updates
+2021, Jan 04:
+  * Publish Docker image for OpenCV [[link]](https://hub.docker.com/repository/docker/danhdoan/opencv4-slim-buster)
+
 **2019, Nov 27:**
   * Add 012-tflite-object-detection
 
